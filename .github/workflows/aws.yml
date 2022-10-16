@@ -27,6 +27,8 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/HUBBLEGMR1/Connect/main/resources/npp.exe -OutFile npp.exe
         
         Invoke-WebRequest https://raw.githubusercontent.com/HUBBLEGMR1/Connect/main/resources/openvp.msi -OutFile openvp.msi
+        
+        Invoke-WebRequest https://raw.githubusercontent.com/HUBBLEGMR1/Connect/main/resources/wallpaper.jpg -OutFile wallpaper.jpg
 
         
 
@@ -59,6 +61,8 @@ jobs:
         copy npp.exe C:\Users\Public\Desktop\npp.exe
         
         copy openvp.msi C:\Users\Public\Desktop\openvp.msi
+        
+        copy wallpaper.jpg C:\Users\Public\Desktop\wallpaper.jpg
 
         
 
